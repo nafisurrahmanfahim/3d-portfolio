@@ -47,16 +47,33 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Custom futuristic colors
+        glow: {
+          primary: "hsl(var(--glow-primary))",
+          secondary: "hsl(var(--glow-secondary))",
+          accent: "hsl(var(--glow-accent))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-glass': 'var(--gradient-glass)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'glow-secondary': 'var(--shadow-glow-secondary)', 
+        'glass': 'var(--shadow-glass)',
+        'card': 'var(--shadow-card)',
+      },
+      backdropFilter: {
+        'glass': 'blur(var(--blur-glass))',
+        'strong': 'blur(var(--blur-strong))',
+      },
+      transitionTimingFunction: {
+        'smooth': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+        'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+        'elastic': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',
       },
       borderRadius: {
         lg: "var(--radius)",
