@@ -141,7 +141,7 @@ const Footer = () => {
               className="text-3xl font-semibold gradient-text mb-4 cursor-pointer"
               onClick={scrollToTop}
             >
-              Milad
+              Fahim
             </div>
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
               Creative developer crafting digital experiences that inspire and engage 
@@ -193,13 +193,13 @@ const Footer = () => {
                 href="mailto:hello@milad.dev"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                hello@milad.dev
+                nafisurrahmanfahim21@gmail.com
               </a>
               <a 
                 href="tel:+15551234567"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                +1 (555) 123-4567
+                +880 1611-720004
               </a>
               <p className="text-sm">
                 San Francisco, CA
@@ -212,7 +212,7 @@ const Footer = () => {
         <div className="border-t border-border/30 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <span>© 2024 Milad. Made with</span>
+              <span>© 2025 Fahim. Made with</span>
               <Heart size={16} className="text-red-400" weight="fill" />
               <span>and lots of coffee</span>
             </div>
