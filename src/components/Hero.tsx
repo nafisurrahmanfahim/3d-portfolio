@@ -128,7 +128,7 @@ const Hero = () => {
             ref={titleRef}
             className="text-5xl md:text-7xl lg:text-8xl font-light mb-6 leading-tight"
           >
-            Hi, I'm <span className="gradient-text text-glow">Milad</span>
+            Hi, I'm <span className="gradient-text text-glow">Fahim</span>
             <br />
             <span className="text-3xl md:text-5xl lg:text-6xl text-muted-foreground">
               Web Developer

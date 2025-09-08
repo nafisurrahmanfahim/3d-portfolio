@@ -147,19 +147,19 @@ const Contact = () => {
     {
       icon: EnvelopeSimple,
       label: "Email",
-      value: "hello@milad.dev",
-      href: "mailto:hello@milad.dev"
+      value: "nafisurrahmanfahim21@gmail.com",
+      href: "mailto:nafisurrahmanfahim21@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+880 1611-720004",
+      href: "tel:+1611720004"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Dhaka, Bangladesh",
       href: "#"
     }
   ];

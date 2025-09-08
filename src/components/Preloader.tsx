@@ -56,7 +56,7 @@ const Preloader = ({ onComplete }: PreloaderProps) => {
     <div ref={preloaderRef} className="preloader">
       <div ref={titleRef} className="text-center">
         <h1 className="text-6xl md:text-8xl font-light gradient-text mb-4">
-          Milad
+          Fahim
         </h1>
         <p className="text-xl text-muted-foreground font-light tracking-wider">
           Creative Developer

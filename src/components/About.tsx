@@ -179,7 +179,7 @@ const About = () => {
                 </p>
                 
                 <p>
-                  My journey in web development spans over 5 years, during 
+                  My journey in web development spans over 3+ years, during 
                   which I've mastered the art of combining beautiful design 
                   with seamless functionality. I specialize in React, GSAP 
                   animations, and creating responsive, user-centric applications.
