@@ -90,7 +90,7 @@ const Navigation = () => {
               <GithubLogo size={20} weight="light" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nafisur-rahman-fahim-bd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-secondary transition-colors duration-300"

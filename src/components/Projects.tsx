@@ -30,7 +30,7 @@ const Projects = () => {
       tech: ["Three.js", "Spline", "GSAP", "React"],
       category: "3D Experience",
       github: "https://github.com",
-      live: "https://example.com"
+      live: "https://3d-site-beta.vercel.app/"
     },
     {
       id: 3,
@@ -180,7 +180,7 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex items-center gap-3">
-                  <Button
+                  <Button onClick={() => window.open(project.live, "_blank")}
                     size="sm"
                     className="bg-gradient-primary hover:shadow-glow text-white rounded-xl flex-1 group/btn"
                   >
